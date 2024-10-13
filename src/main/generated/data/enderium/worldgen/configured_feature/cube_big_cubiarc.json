@@ -1,0 +1,42 @@
+{
+  "type": "enderium:cube_cubiarc",
+  "config": {
+    "block": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "data": {
+            "Name": "minecraft:end_stone"
+          },
+          "weight": 5
+        },
+        {
+          "data": {
+            "Name": "minecraft:purpur_block"
+          },
+          "weight": 2
+        },
+        {
+          "data": {
+            "Name": "minecraft:obsidian"
+          },
+          "weight": 1
+        }
+      ]
+    },
+    "cubeCount": {
+      "type": "minecraft:uniform",
+      "value": {
+        "max_inclusive": 3,
+        "min_inclusive": 1
+      }
+    },
+    "size": {
+      "type": "minecraft:uniform",
+      "value": {
+        "max_inclusive": 10,
+        "min_inclusive": 5
+      }
+    }
+  }
+}
